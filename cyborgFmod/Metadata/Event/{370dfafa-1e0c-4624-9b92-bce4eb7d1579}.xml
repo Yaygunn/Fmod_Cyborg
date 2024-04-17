@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{370dfafa-1e0c-4624-9b92-bce4eb7d1579}">
 		<property name="name">
-			<value>Lalala event</value>
+			<value>InventoryOpen</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{88cb2c6e-e018-4f51-a46d-770d8d702233}</destination>
+			<destination>{f3118a77-e09e-471c-a226-e8f77e40a7e4}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{73410133-1c5d-4996-8e7a-67db6a6c66c1}</destination>
