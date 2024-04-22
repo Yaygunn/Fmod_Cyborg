@@ -94,14 +94,11 @@
 		<property name="length">
 			<value>5.431220979321508</value>
 		</property>
-		<property name="timelockedOffset">
-			<value>0.57463839567849162</value>
-		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{78efe5ee-c10e-43c6-82aa-6fadbdf3944a}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{ffdf27f2-7602-4186-888f-1ba98716d42c}</destination>
+			<destination>{2cd7272b-8ebc-4717-852e-2bdabc1340cd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{70809a38-cec7-4a0f-995d-0713f0c87e0b}">
