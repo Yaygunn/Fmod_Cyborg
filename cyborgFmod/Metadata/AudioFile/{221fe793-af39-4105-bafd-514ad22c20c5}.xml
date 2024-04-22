@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{221fe793-af39-4105-bafd-514ad22c20c5}">
+		<property name="assetPath">
+			<value>Placeholder/Note.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.9266666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2cddb096-2d46-4914-be3a-c7ab58dfa2ef}</destination>
+		</relationship>
+	</object>
+</objects>

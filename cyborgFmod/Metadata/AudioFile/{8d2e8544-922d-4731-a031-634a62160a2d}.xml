@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8d2e8544-922d-4731-a031-634a62160a2d}">
+		<property name="assetPath">
+			<value>Placeholder/Ambiance day.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>64.66802083333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2cddb096-2d46-4914-be3a-c7ab58dfa2ef}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6c50ceff-eca8-445c-abca-1d9ba193f049}">
+		<property name="name">
+			<value>Inside Building</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5dfe9dcc-31cc-4d90-881b-75550300e2b0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{46c4990c-006f-48f1-8956-a8dd4957cc72}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{46c4990c-006f-48f1-8956-a8dd4957cc72}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
