@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{44bdfc82-e343-4abe-b2a7-3375f20a3399}">
 		<property name="name">
-			<value>Attack 1</value>
+			<value>Attack 1 Machine Gun</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -84,6 +84,8 @@
 	</object>
 	<object class="MultiSound" id="{e1efdd8b-7617-4cda-8504-17f68756f17f}">
 		<relationship name="sounds">
+			<destination>{1d651b02-1ee3-4655-857b-1bc87ad6e18a}</destination>
+			<destination>{21622b63-dc94-4d30-812c-1e96507756ce}</destination>
 			<destination>{d9e59449-d729-45df-a2ba-9623a80467fc}</destination>
 		</relationship>
 	</object>
@@ -99,6 +101,16 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a6e3b7d0-198c-4afa-a946-5279cad53c82}" />
+	<object class="SingleSound" id="{1d651b02-1ee3-4655-857b-1bc87ad6e18a}">
+		<relationship name="audioFile">
+			<destination>{d6d7d369-066f-4128-bfff-8135fc8842d0}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{21622b63-dc94-4d30-812c-1e96507756ce}">
+		<relationship name="audioFile">
+			<destination>{554a616b-cb17-46dc-99ab-0f8747f29ee4}</destination>
+		</relationship>
+	</object>
 	<object class="MultiSound" id="{d9e59449-d729-45df-a2ba-9623a80467fc}">
 		<relationship name="sounds">
 			<destination>{ff60c3b5-833e-40f0-9c52-065d7e1959f2}</destination>

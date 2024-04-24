@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f05a32ae-cbed-45df-aa9d-e046fa9acf81}">
+		<property name="assetPath">
+			<value>ESM_Builder_Game_Fireworks_Bomb_Explosion_3_Fire_Bomb_Explosive_War_Battle_Rocket_Mortar_Tank_Cannon.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2cddb096-2d46-4914-be3a-c7ab58dfa2ef}</destination>
+		</relationship>
+	</object>
+</objects>
