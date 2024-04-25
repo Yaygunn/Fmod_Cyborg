@@ -92,7 +92,7 @@
 	</object>
 	<object class="MultiSound" id="{e1efdd8b-7617-4cda-8504-17f68756f17f}">
 		<relationship name="sounds">
-			<destination>{63d7baf2-dfbf-4e00-9290-17335082f93e}</destination>
+			<destination>{1347bc7f-acbb-4838-959f-62d318c8c2b2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{d06ab088-2928-43cb-99f4-2a956a030d35}">
@@ -109,9 +109,13 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a6e3b7d0-198c-4afa-a946-5279cad53c82}" />
-	<object class="SingleSound" id="{63d7baf2-dfbf-4e00-9290-17335082f93e}">
-		<relationship name="audioFile">
-			<destination>{f416e0fe-708c-45cd-8c3c-80c352fcf7a1}</destination>
+	<object class="MultiSound" id="{1347bc7f-acbb-4838-959f-62d318c8c2b2}">
+		<relationship name="modulators">
+			<destination>{4f4a1984-3515-4111-b773-668f73f49b2a}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{c00cb37c-2291-4c54-9355-077767d85d03}</destination>
+			<destination>{da862264-3081-4417-9be0-db3a8e067347}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{32231bd8-05eb-4940-b25b-5ec7004e3d02}" />
@@ -147,6 +151,24 @@
 			<destination>{1887f78f-07db-4669-9c04-564d670233f2}</destination>
 		</relationship>
 	</object>
+	<object class="RandomizerModulator" id="{4f4a1984-3515-4111-b773-668f73f49b2a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>3</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{c00cb37c-2291-4c54-9355-077767d85d03}">
+		<relationship name="audioFile">
+			<destination>{5b9f4ad1-11b8-4963-8e94-9b0f09b4e796}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{da862264-3081-4417-9be0-db3a8e067347}">
+		<relationship name="audioFile">
+			<destination>{62a0a80a-d321-4a33-8125-fba7ddc639bc}</destination>
+		</relationship>
+	</object>
 	<object class="RandomizerModulator" id="{1887f78f-07db-4669-9c04-564d670233f2}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>depth</value>
@@ -180,7 +202,7 @@
 			<value>2</value>
 		</property>
 		<property name="value">
-			<value>48</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{691db4d7-aa0c-4570-912f-717630ff88b5}">
@@ -188,7 +210,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>76</value>
+			<value>20.4999981</value>
 		</property>
 	</object>
 </objects>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{f416e0fe-708c-45cd-8c3c-80c352fcf7a1}">
+	<object class="AudioFile" id="{62a0a80a-d321-4a33-8125-fba7ddc639bc}">
 		<property name="assetPath">
-			<value>Machine gun_1.wav</value>
+			<value>Machine gun 2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.1903628117913834</value>
+			<value>0.59893750000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2cddb096-2d46-4914-be3a-c7ab58dfa2ef}</destination>
