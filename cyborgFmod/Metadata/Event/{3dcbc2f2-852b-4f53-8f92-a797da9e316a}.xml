@@ -63,6 +63,9 @@
 		<property name="dopplerScale">
 			<value>275</value>
 		</property>
+		<property name="maximumDistance">
+			<value>800</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{128fb199-3bc1-4747-87ed-e8763a4490d2}" />
 	<object class="Timeline" id="{c615dc16-9ea6-47ed-aeec-2316dc587165}">
