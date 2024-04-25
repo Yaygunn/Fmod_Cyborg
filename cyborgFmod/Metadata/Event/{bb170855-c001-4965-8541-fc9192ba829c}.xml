@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b75d670c-ac06-4bed-bda2-1c1e125216d7}">
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{bfd84546-58b7-4078-83e4-7cc19597a9ec}</destination>
 		</relationship>
@@ -84,7 +87,7 @@
 	</object>
 	<object class="MultiSound" id="{332ca948-b902-489f-b1e5-29140e15aa39}">
 		<relationship name="sounds">
-			<destination>{58aed58f-e3bf-4373-b9ac-9dfac2e6dc65}</destination>
+			<destination>{e5a89edc-bd1d-4138-8a16-7bbf64d58f86}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{d5b5bbde-a9dc-4359-be5a-7db7918a65b4}">
@@ -96,14 +99,60 @@
 	<object class="MixerBusEffectChain" id="{bfd84546-58b7-4078-83e4-7cc19597a9ec}">
 		<relationship name="effects">
 			<destination>{e6e8cd76-73a0-489c-9570-130b69831ce2}</destination>
+			<destination>{ed1f30c9-b3f1-4928-a9fa-ad49c5fb550d}</destination>
+			<destination>{e6d11fdc-3ac3-4daa-b445-ed015cfc8982}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{83afdfeb-8ab0-4762-8a19-732387df11ef}" />
-	<object class="SingleSound" id="{58aed58f-e3bf-4373-b9ac-9dfac2e6dc65}">
+	<object class="SingleSound" id="{e5a89edc-bd1d-4138-8a16-7bbf64d58f86}">
 		<relationship name="audioFile">
-			<destination>{520e5cb5-1d48-4174-83d1-b71faa7a1180}</destination>
+			<destination>{ceb8c167-06b9-435e-a5e0-7311e49534b5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{bda17917-30ca-4bfc-a251-41c39e7fe8d8}" />
 	<object class="MixerBusFader" id="{e6e8cd76-73a0-489c-9570-130b69831ce2}" />
+	<object class="ChorusEffect" id="{ed1f30c9-b3f1-4928-a9fa-ad49c5fb550d}">
+		<property name="depth">
+			<value>44</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{7196f527-e075-42d7-b291-7ebae4371c28}</destination>
+			<destination>{2e8d3392-ccc9-402b-952b-10db305cdd81}</destination>
+		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{e6d11fdc-3ac3-4daa-b445-ed015cfc8982}">
+		<property name="frequencyA">
+			<value>1650.62024</value>
+		</property>
+		<property name="qualityA">
+			<value>0.665137947</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{119adb90-505d-4bf6-bcde-0d1859ade1fb}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{7196f527-e075-42d7-b291-7ebae4371c28}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>depth</value>
+		</property>
+		<property name="amount">
+			<value>36.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{2e8d3392-ccc9-402b-952b-10db305cdd81}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>rate</value>
+		</property>
+		<property name="amount">
+			<value>35</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{119adb90-505d-4bf6-bcde-0d1859ade1fb}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>qualityA</value>
+		</property>
+		<property name="amount">
+			<value>35.5</value>
+		</property>
+	</object>
 </objects>

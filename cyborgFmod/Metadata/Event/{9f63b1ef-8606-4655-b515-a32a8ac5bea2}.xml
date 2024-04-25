@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9f63b1ef-8606-4655-b515-a32a8ac5bea2}">
 		<property name="name">
-			<value>Movement</value>
+			<value>Dash</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -64,6 +64,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c492bd19-0631-4050-ae01-71c0469805d4}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6bb63e11-4f4b-44f7-9dca-1b3fd5197108}</destination>
 		</relationship>

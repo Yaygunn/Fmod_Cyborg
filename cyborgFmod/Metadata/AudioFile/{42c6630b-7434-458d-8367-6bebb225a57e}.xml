@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{42c6630b-7434-458d-8367-6bebb225a57e}">
+		<property name="assetPath">
+			<value>Placeholder/ESM_FG_mechanical_loop_engine_tractor_start_drive_garden_machine_idle_hum_2_deep_tank - Trimmed.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11.772541666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2cddb096-2d46-4914-be3a-c7ab58dfa2ef}</destination>
+		</relationship>
+	</object>
+</objects>

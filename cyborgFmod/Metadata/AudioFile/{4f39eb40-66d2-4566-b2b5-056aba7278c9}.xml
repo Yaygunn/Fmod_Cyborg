@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4f39eb40-66d2-4566-b2b5-056aba7278c9}">
+		<property name="assetPath">
+			<value>Tank robot idle - Trimmed.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2cddb096-2d46-4914-be3a-c7ab58dfa2ef}</destination>
+		</relationship>
+	</object>
+</objects>

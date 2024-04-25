@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{a0681adc-f07b-4311-b1a8-bfd35f003333}">
 		<property name="name">
-			<value>Paused</value>
+			<value>Inventory</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5dfe9dcc-31cc-4d90-881b-75550300e2b0}</destination>
@@ -18,8 +18,14 @@
 		<property name="maximum">
 			<value>2</value>
 		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
 		</property>
 		<relationship name="automators">
 			<destination>{4c13ce1c-4397-4721-a230-55dfe67b8835}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{91aac181-5048-4b35-b427-be709bc63648}">
 		<property name="name">
-			<value>Weapon hit</value>
+			<value>Lazer weapon hit</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,7 +30,6 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{e31faed8-5c4b-4163-b8c2-8be6c3cc09aa}</destination>
-			<destination>{7ed82e86-9d29-465d-9416-74279a5b7f53}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{2f936b9c-2469-4c43-8b07-e254018b27c9}</destination>
@@ -72,11 +71,6 @@
 			<destination>{ea7be9d8-d5f4-4330-8a52-c4a42c65e310}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterProxy" id="{7ed82e86-9d29-465d-9416-74279a5b7f53}">
-		<relationship name="preset">
-			<destination>{c078789a-83b1-4a37-9ffa-4608fdbe6035}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerMaster" id="{1ada41c7-df24-47f3-a36e-325196153c84}">
 		<relationship name="effectChain">
 			<destination>{2b544ec3-eac5-4cf5-a7c0-f201d6479359}</destination>
@@ -107,17 +101,16 @@
 	<object class="MixerBusPanner" id="{18b67210-ecf9-488d-b29a-8c5ad0e6e9e1}" />
 	<object class="MultiSound" id="{4d164248-9902-4822-b475-e0c4542f16f4}">
 		<property name="volume">
-			<value>-2.5</value>
-		</property>
-		<property name="pitch">
-			<value>-8</value>
+			<value>-5.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{7143cdc5-cab9-40b8-9810-6a61afa66e28}</destination>
 			<destination>{e68600d4-02b6-45d9-85f0-34d42c18cdfe}</destination>
 		</relationship>
 		<relationship name="sounds">
-			<destination>{f1883969-2859-4a98-ac6e-ec64f43449d4}</destination>
+			<destination>{8832b8e1-31d3-4ec3-83eb-9c6e48f593eb}</destination>
+			<destination>{2d5d139c-5862-4bdd-883d-98640b700940}</destination>
+			<destination>{c47da8cd-1fac-46f2-9fa5-a675396ae53f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{15f37778-1233-4a97-a54e-cd6dca2d514c}" />
@@ -138,9 +131,19 @@
 			<value>3.5</value>
 		</property>
 	</object>
-	<object class="SingleSound" id="{f1883969-2859-4a98-ac6e-ec64f43449d4}">
+	<object class="SingleSound" id="{8832b8e1-31d3-4ec3-83eb-9c6e48f593eb}">
 		<relationship name="audioFile">
-			<destination>{513b437d-b3cc-4120-9c14-419a6bccb664}</destination>
+			<destination>{9d6b10af-77e6-4c7f-b431-89d0f0667306}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{2d5d139c-5862-4bdd-883d-98640b700940}">
+		<relationship name="audioFile">
+			<destination>{bad473f9-6c38-4355-b0ec-4e203bb9cc90}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{c47da8cd-1fac-46f2-9fa5-a675396ae53f}">
+		<relationship name="audioFile">
+			<destination>{283e2387-fab8-4bbd-9f82-5baebeac21ee}</destination>
 		</relationship>
 	</object>
 </objects>

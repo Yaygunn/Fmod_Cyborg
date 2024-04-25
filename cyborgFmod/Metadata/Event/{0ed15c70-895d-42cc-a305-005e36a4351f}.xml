@@ -96,14 +96,43 @@
 	<object class="MixerBusEffectChain" id="{1ac7a9f1-2ef9-47f8-8f11-4d10683f38a8}">
 		<relationship name="effects">
 			<destination>{2d8d6ea1-72ce-47d7-9277-03ddeb4ea6a2}</destination>
+			<destination>{73d33e27-bb73-49a3-a9e7-0bcd0fe319fb}</destination>
+			<destination>{2de8870e-20d4-48b5-9584-b6c2a58b033e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{523d7aa8-69a9-45e2-bdc4-011dec31a416}" />
 	<object class="SingleSound" id="{ff03cb07-5a34-41a7-8a68-997c10b681a1}">
+		<property name="pitch">
+			<value>12</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ab39a732-70c5-4ab4-bb6f-ea54440e4526}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{07d0656f-fb81-4824-b122-ec75757768f0}" />
 	<object class="MixerBusFader" id="{2d8d6ea1-72ce-47d7-9277-03ddeb4ea6a2}" />
+	<object class="LowpassEffect" id="{73d33e27-bb73-49a3-a9e7-0bcd0fe319fb}">
+		<property name="cutoff">
+			<value>2800</value>
+		</property>
+	</object>
+	<object class="PitchShifterEffect" id="{2de8870e-20d4-48b5-9584-b6c2a58b033e}">
+		<property name="pitch">
+			<value>1.01999998</value>
+		</property>
+		<property name="overlap">
+			<value>4.20000029</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{de664e96-9cc4-4792-88bc-c2f98c3a46aa}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{de664e96-9cc4-4792-88bc-c2f98c3a46aa}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>6</value>
+		</property>
+	</object>
 </objects>
