@@ -60,6 +60,12 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7ef96b4d-a280-44cd-9ca1-591ad1f8e0aa}">
+		<property name="dopplerEnabled">
+			<value>true</value>
+		</property>
+		<property name="dopplerScale">
+			<value>150</value>
+		</property>
 		<property name="minimumDistance">
 			<value>0</value>
 		</property>
@@ -79,6 +85,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{42c79c38-44d0-4d01-a005-c27caf2f4609}">
+		<property name="volume">
+			<value>9</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{ad854323-6e4f-4c5d-95ed-29b2c4e85909}</destination>
 		</relationship>
@@ -130,7 +139,10 @@
 	<object class="MixerBusFader" id="{91a5e59c-92c6-4b12-84d9-96df91b3b05d}" />
 	<object class="PitchShifterEffect" id="{9da2343a-7505-473b-a78d-4835f3774b53}">
 		<property name="pitch">
-			<value>0.969999969</value>
+			<value>1.10000002</value>
+		</property>
+		<property name="fftSize">
+			<value>1360</value>
 		</property>
 		<property name="overlap">
 			<value>9.40000057</value>
@@ -140,7 +152,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{66f3c87e-b4d8-4c6a-920a-f3b3f493c059}" />
-	<object class="ObjectSpatialiserEffect" id="{a2c33da0-9899-46ce-80c1-06da2004f133}" />
+	<object class="ObjectSpatialiserEffect" id="{a2c33da0-9899-46ce-80c1-06da2004f133}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{5ba695ab-375c-42be-8364-16968bf8055e}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
